@@ -1,4 +1,4 @@
-<!-- local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("AutoFarm Made By HeartI#5957", "BloodTheme")
 
 --MAIN
@@ -63,4 +63,3 @@ Tab:NewButton("Faded", "Faded", function()
     -- / / V to open and close
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Old-Faded-Discontinued/main/YesEpic", true))()
 end)
--->
