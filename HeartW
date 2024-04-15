@@ -9,57 +9,52 @@ local Tab = Window:NewTab("Main")
 local Tab = Window:NewTab("BloxFruits")
 local Tab = Tab:NewSection("Exploits")
 
-Tab:NewButton("New Mukuro", "Mukuro Hub", function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+Tab:NewButton("Redz Hub", "Redz Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
 end)
 
-Tab:NewButton("Old Mukuro", "Mukuro Hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+Tab:NewButton("Hoho Hub", "Hoho Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
-Tab:NewButton("Ripper V2", "Ripper Hub", function()
-    _G.Version = "V2" -- V2 or V3
-loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))();
+Tab:NewButton("Alchemy Hub", "Alchemy Hub", function()
+    loadstring(game:HttpGet("https://luable.top/acm"))()
+end)
+Tab:NewButton("Unknown V4 Hub", "Unknown V4 Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/UnknownHubV3"))()
 end)
 
-Tab:NewButton("Ripper V3", "Ripper Hub", function()
-    _G.Version = "V3" -- V2 or V3
-loadstring(game:HttpGet('https://raw.githubusercontent.com/xDestinyx/RipperHub/main/Loader.lua'))();
+Tab:NewButton("Z Azure Hub", "Z Azure Hub", function()
+    loadstring(game:HttpGet("https://shz.al/dwdT/MainLoader.lua"))()
 end)
-
-Tab:NewButton("ThunderZ", "ThunderZ", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
-end)
-
-Tab:NewButton("Neva Hub", "Neva Hub", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
-end)
-
-Tab:NewButton("Thunder Hub", "Thunder Hub", function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/RegularThunder/IsCute/main/ScriptLoader")()
-    end)
-
-    Tab:NewButton("Hoho Hub", "Hoho Hub", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-        end)
-
- Tab:NewButton("Mango Hub", "Key:Mango_RAINDROPW ", function()
-    getgenv().WaterMark = true
-loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta"))()
-    end)
 -- LOCAL DAHOOD
-local Tab = Window:NewTab("Da Hood")
+local Tab = Window:NewTab("Sol's Rng")
 local Tab = Tab:NewSection("Exploits")
 
-Tab:NewButton("RAYX", "RAYX", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+Tab:NewButton("Hoho Hub", "Hoho Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
-Tab:NewButton("SwagMode", "SwagMode", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+
+-- TTD
+local Tab = Window:NewTab("Toilet Tower Defense")
+local Tab = Tab:NewSection("Exploits")
+
+Tab:NewButton("Reaper Hub", "Reaper Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
 end)
 
-Tab:NewButton("Faded", "Faded", function()
-    -- / / V to open and close
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Old-Faded-Discontinued/main/YesEpic", true))()
+-- ANIME FIGHTER
+local Tab = Window:NewTab("Anime Fighters Simulator")
+local Tab = Tab:NewSection("Exploits")
+
+Tab:NewButton("Yuto Hub v3", "Yuto Hub v3", function()
+    repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Binintrozza/yutv2e/main/afss"))()
 end)
+
+Tab:NewButton("Yuto Hub v3", "Yuto Hub v3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
+end)
+
+--
