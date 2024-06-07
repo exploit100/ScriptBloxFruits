@@ -1,9 +1,48 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("AutoFarm Made By HeartI#5957", "BloodTheme")
+local Window = Library.CreateLib("SCRIPT IS MADE BY XUZUEH SCRIPTS ", "BloodTheme")
 
 --MAIN
 local Tab = Window:NewTab("Main")
 
+--Kaitan Hub
+local Tab = Window:NewTab(Kaitun Blox fruits)
+Local Tab = Tab:Newsection("EXPLOITS")
+
+Tab:NewButton("Windy", "Windy Hub", function()
+    _G.WINDYKAITUN = true
+_G.Mics = {
+    ["Remove Terrain"] = false,
+    ["White Screen"] = false,
+    ["Disabled Notify"] = false,
+    ["Auto Rejoin"] = false,
+    ["Delay Per Rejoin"] = 3600,
+    ["Max-Distance Bypass TP"] = 1500
+}
+_G.Settings = {
+    ["Team"] = "Pirates",
+    ["Enabled Skip Farm"] = true,
+    ["Auto Do Level Stuff"] = true,
+    ["Auto Collect Fruit"] = true,
+    ["Auto Store Fruit"] = true,
+    ["Auto Mastery Melee"] = true,
+    ["Auto Saber"] = true,
+    ["Auto Pole"] = true,
+    ["Auto New World 2"] = true,
+    ["Auto Bartilo Quest"] = true,
+    ["Auto Rengoku"] = true,
+    ["Auto Flamingo Access"] = true,
+    ["Auto Midnight Blade"] = true,
+    ["Auto Buy 3 Legendary Sword"] = true,
+    ["Auto Buy Legendary Haki"] = true,
+    ["Auto Buy All When Level More Than 350"] = true,
+    ["Auto New World 3"] = true,
+    ["Auto Yama"] = true,
+    ["Auto Tushita"] = true,
+    ["Auto Soul Guitar"] = true
+}
+_G.Key = "Windy1"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/KaitunLoadder.lua"))()
+end)
 
 --BLOX FRUIT
 local Tab = Window:NewTab("BloxFruits")
@@ -20,6 +59,7 @@ end)
 Tab:NewButton("Alchemy Hub", "Alchemy Hub", function()
     loadstring(game:HttpGet("https://luable.top/acm"))()
 end)
+
 Tab:NewButton("Unknown V4 Hub", "Unknown V4 Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BestScriptEverr/Main-/main/UnknownHubV3"))()
 end)
@@ -27,21 +67,50 @@ end)
 Tab:NewButton("Z Azure Hub", "Z Azure Hub", function()
     loadstring(game:HttpGet("https://shz.al/dwdT/MainLoader.lua"))()
 end)
--- LOCAL DAHOOD
-local Tab = Window:NewTab("Sol's Rng")
+
+
+
+
+
+
+-- LOCAL ANIME DEFENSE 
+local Tab = Window:NewTab("Anime Denfense")
 local Tab = Tab:NewSection("Exploits")
 
-Tab:NewButton("Hoho Hub", "Hoho Hub", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+Tab:NewButton("Nousigi Hub", "Hoho Hub", function()
+    loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
 end)
 
 
--- TTD
+
+
+
+-- TOILET TOWER DENFENSE
 local Tab = Window:NewTab("Toilet Tower Defense")
 local Tab = Tab:NewSection("Exploits")
 
 Tab:NewButton("Reaper Hub", "Reaper Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
+end)
+
+Tab:NewButton("Reaper Hub", "Reaper Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
+end)
+
+Tab:NewButton("Reaper Hub", "Reaper Hub", function()
+    loadstring(game:HttpGet("https://nousigi.com/loader.lua"))() 
+end)
+
+-- BLADE BALL
+local Tab = Window:NewTab("BLade ball")
+local Tab = Tab:NewSection("Exploits")
+
+Tab:NewButton("Alchemy Hub", "Alchemy Hub", function()
+    loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+end)
+
+Tab:NewButton("Bedol Hub", "Bedol Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Dungeons.lua"))()
 end)
 
 -- ANIME FIGHTER
@@ -53,8 +122,7 @@ Tab:NewButton("Yuto Hub v3", "Yuto Hub v3", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Binintrozza/yutv2e/main/afss"))()
 end)
 
-Tab:NewButton("Yuto Hub v3", "Yuto Hub v3", function()
+Tab:NewButton("Plantinium Hub", "Plantinium Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
 end)
 
---
